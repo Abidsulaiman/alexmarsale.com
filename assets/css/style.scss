@@ -1,0 +1,45 @@
+$primary: #1A74DB;
+$dark: #060606;
+
+*{
+  outline: none;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fcfcfc;
+}
+
+section{
+  padding: 40px 0;
+}
+
+.bg-dark{
+  background: $dark!important;
+}
+
+//btn
+.btn-primary{
+  background: $primary;
+  border: $primary;
+}
+
+.header{
+  background: url("../img/black_bg.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .caption{
+    margin-top: 5%;
+  }
+  .alexmarsaleImg img{
+    position: absolute;
+    right: 6%;
+    bottom: -3px;
+  }
+}
