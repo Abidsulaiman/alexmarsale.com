@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+* {
+  outline: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fcfcfc;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  opacity: 1;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #191919;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.v-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-dark {
+  background: #060606 !important;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: #1A74DB;
+  border: #1A74DB;
+}
+
+.btn-grad {
+  background: #00d2ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: #fff !important;
+}
+
+.btn-gold, .btn-gold:focus, .btn-gold:active {
+  background: #EBD890;
+  border: 2px solid #EBD890;
+  color: #000 !important;
+}
+
+.btn-gold:hover {
+  background: transparent;
+  border: 2px solid #EBD890;
+  color: #000 !important;
+}
+
+.bg-black-grad {
+  background: #3e3e3e;
+  background: radial-gradient(circle, #3e3e3e 0%, black 100%);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.header .alexmarsaleImg img {
+  position: absolute;
+  right: 6%;
+  bottom: -3px;
+  filter: grayscale(1);
+}
+.header .btn-gold:hover {
+  background: transparent;
+  border: 2px solid #EBD890;
+  color: #fff !important;
+}
+
+.program_row {
+  margin-top: -150px;
+}
+.program_row .card {
+  border-radius: 0px;
+  border: 2px solid grey;
+}
+.program_row .card .card-header {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: #fff;
+  padding: 0.2rem;
+}
+.program_row .card .card-body h5 {
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+.program_row .card .card-body p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.program_row .card .card-body .btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+}
+
+.card {
+  border-radius: 0;
+  border: 2px solid grey;
+}
+.card .card-header {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: #fff;
+  padding: 0.2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
